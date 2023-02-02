@@ -8,8 +8,8 @@ ingress:
   pathPrefix: ""
 
 service:
-  type: LoadBalancer
-  port: 80
+  type: ClusterIP
+  port: 8080
 
 deployment:
   replicaCount: 2
